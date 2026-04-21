@@ -112,7 +112,7 @@
 			(pin input line
 				(at 10.16 0 180)
 				(length 2.54)
-				(name "SDA"
+				(name "SCL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -130,7 +130,7 @@
 			(pin input line
 				(at 10.16 -2.54 180)
 				(length 2.54)
-				(name "SCL"
+				(name "SDA"
 					(effects
 						(font
 							(size 1.27 1.27)
