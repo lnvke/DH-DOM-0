@@ -104,20 +104,12 @@
           ""
         ],
         [
-          "hole_clearance|177330000|100630000|45482fd4-fb0a-46dc-856f-6c3676b96a3e|61f32b62-e701-4bb5-9879-8f03a7b39630",
-          "USB clearance"
+          "silk_edge_clearance|181315000|85500000|a6f8a63b-107e-43e9-9be0-92915e4ead7e|fd9e00e3-4c57-4f82-98a1-a41a727f5f32",
+          "esp32 antenna"
         ],
         [
-          "hole_clearance|177330000|100630000|53bc8bb8-300e-4b0f-9fb9-589e3f9a91b6|61f32b62-e701-4bb5-9879-8f03a7b39630",
-          ""
-        ],
-        [
-          "hole_clearance|177330000|106730000|2b17d170-e122-4e51-97e9-a88328ab373d|34f3ab5f-1d31-4167-9596-348ec3e0db8f",
-          ""
-        ],
-        [
-          "hole_clearance|177330000|106730000|6361fde6-5b89-4bcc-9b2a-080c2b45b1b4|34f3ab5f-1d31-4167-9596-348ec3e0db8f",
-          ""
+          "silk_edge_clearance|199715000|85500000|a6f8a63b-107e-43e9-9be0-92915e4ead7e|58bcf90b-bb7b-4e50-b4a4-caf20fee00b5",
+          "esp32 antenna"
         ]
       ],
       "meta": {
@@ -176,7 +168,7 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
-        "track_not_centered_on_via": "ignore",
+        "track_not_centered_on_via": "warning",
         "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
