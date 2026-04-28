@@ -4327,12 +4327,28 @@
 		(uuid "ff7e5a5a-606d-48d0-b1fb-2d6c0e2fd0d4")
 	)
 	(no_connect
+		(at 154.94 111.76)
+		(uuid "02541ef6-24ab-44e6-af12-c56bd5bb7875")
+	)
+	(no_connect
+		(at 154.94 106.68)
+		(uuid "13cc659b-ee78-4ea6-8f26-2fd9d5a616b7")
+	)
+	(no_connect
+		(at 154.94 109.22)
+		(uuid "1b7693bf-8451-4b8e-b3ad-fa22a76118ad")
+	)
+	(no_connect
 		(at 154.94 88.9)
 		(uuid "1c580c83-b5b0-4048-8f8c-d7e3483da15f")
 	)
 	(no_connect
 		(at 97.79 33.02)
 		(uuid "20ef729a-add6-4af4-8ea7-be8d80f41a96")
+	)
+	(no_connect
+		(at 185.42 86.36)
+		(uuid "476f2c2b-78a7-42d0-bbfe-06b53bf42666")
 	)
 	(no_connect
 		(at 77.47 43.18)
@@ -4349,6 +4365,10 @@
 	(no_connect
 		(at 185.42 71.12)
 		(uuid "6d72fe0d-2ef1-4e16-8f34-f87cef8a2542")
+	)
+	(no_connect
+		(at 154.94 101.6)
+		(uuid "74f86c44-3215-466c-8de7-be9028e91d42")
 	)
 	(no_connect
 		(at 185.42 78.74)
@@ -4393,6 +4413,14 @@
 	(no_connect
 		(at 154.94 81.28)
 		(uuid "c2a606c7-e23d-49df-9731-2f8ab86f195e")
+	)
+	(no_connect
+		(at 154.94 104.14)
+		(uuid "d529efcc-a3d5-4836-89ea-da928e2a690b")
+	)
+	(no_connect
+		(at 185.42 114.3)
+		(uuid "de8e0019-b43c-48ec-8671-8e80ed085f27")
 	)
 	(no_connect
 		(at 74.93 43.18)
@@ -4599,16 +4627,6 @@
 			(type default)
 		)
 		(uuid "11e361a4-a0ec-42c9-a8c0-9912b27b21e6")
-	)
-	(wire
-		(pts
-			(xy 144.78 109.22) (xy 154.94 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14e11b50-9780-41d2-9f9c-74a872c90114")
 	)
 	(wire
 		(pts
@@ -4832,16 +4850,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 111.76) (xy 154.94 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38c3c5d6-cf5d-4b61-ad1a-41feb76d6db9")
-	)
-	(wire
-		(pts
 			(xy 43.18 138.43) (xy 43.18 144.78)
 		)
 		(stroke
@@ -4889,16 +4897,6 @@
 			(type default)
 		)
 		(uuid "410ef449-91bb-4ddd-a5d4-6608b8f24272")
-	)
-	(wire
-		(pts
-			(xy 185.42 114.3) (xy 195.58 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4169c70d-170e-4caf-8062-b46ef29dc3ff")
 	)
 	(wire
 		(pts
@@ -5812,16 +5810,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 104.14) (xy 154.94 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7aff59b-359e-47a5-9764-ea462eecf6dc")
-	)
-	(wire
-		(pts
 			(xy 15.24 35.56) (xy 25.4 35.56)
 		)
 		(stroke
@@ -5909,16 +5897,6 @@
 			(type default)
 		)
 		(uuid "ddb4e613-c2c4-44f3-977c-137a64ddf41e")
-	)
-	(wire
-		(pts
-			(xy 185.42 86.36) (xy 195.58 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e07de31e-fc9b-497e-8ca9-b473fcac55a3")
 	)
 	(wire
 		(pts
@@ -6082,26 +6060,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 106.68) (xy 154.94 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb3d8ef5-dc79-48db-a353-753a507a3a3a")
-	)
-	(wire
-		(pts
-			(xy 144.78 101.6) (xy 154.94 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc5b84ec-99c2-4092-9a7c-176f689d2ddb")
-	)
-	(wire
-		(pts
 			(xy 50.8 157.48) (xy 54.61 157.48)
 		)
 		(stroke
@@ -6140,16 +6098,6 @@
 		)
 		(uuid "093e1700-3068-4cd4-bff6-3d09ac3221f1")
 	)
-	(label "SCLK"
-		(at 195.58 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0bbbedc1-31a8-4442-9d53-dfc95ecc6897")
-	)
 	(label "D{slash}C"
 		(at 195.58 109.22 180)
 		(effects
@@ -6170,17 +6118,7 @@
 		)
 		(uuid "0d9d1c90-aabd-4dda-8b4e-d415d7ff1121")
 	)
-	(label "MISO_MAG"
-		(at 144.78 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "10d4459d-3ba6-4212-84e3-e41d6c1b4882")
-	)
-	(label "SS_MAG"
+	(label "SS"
 		(at 15.24 33.02 0)
 		(effects
 			(font
@@ -6200,7 +6138,7 @@
 		)
 		(uuid "251d6d87-a744-4174-9d3c-cc2f716870d5")
 	)
-	(label "SS_IMU"
+	(label "SS"
 		(at 55.88 38.1 0)
 		(effects
 			(font
@@ -6220,7 +6158,7 @@
 		)
 		(uuid "2b9ad2cf-48f5-49cf-a257-ff5c4bb93b11")
 	)
-	(label "MISO_IMU"
+	(label "MISO"
 		(at 55.88 33.02 0)
 		(effects
 			(font
@@ -6250,7 +6188,7 @@
 		)
 		(uuid "47ba84bd-4d7e-4909-ab37-185f8071a0bd")
 	)
-	(label "SCLK_IMU"
+	(label "SCLK"
 		(at 144.78 99.06 0)
 		(effects
 			(font
@@ -6261,12 +6199,12 @@
 		(uuid "4a3def15-bcc7-4d56-8ac7-712ac64bd8f9")
 	)
 	(label "SS"
-		(at 144.78 116.84 180)
+		(at 144.78 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "4e0164c1-fdd3-4848-a15c-a6c1620e980a")
 	)
@@ -6280,27 +6218,7 @@
 		)
 		(uuid "4e708977-957d-449b-89ae-33268cac1303")
 	)
-	(label "SS_IMU"
-		(at 144.78 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "573e2caa-691d-4dd0-ba69-d8665986db64")
-	)
-	(label "SCLK_MAG"
-		(at 144.78 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5cb45809-c6b7-43fb-a24a-b0b169bd594b")
-	)
-	(label "MISO_MAG"
+	(label "MISO"
 		(at 15.24 30.48 0)
 		(effects
 			(font
@@ -6320,7 +6238,7 @@
 		)
 		(uuid "6538ee6c-edd7-4579-b588-3cd2c6137cda")
 	)
-	(label "MOSI_IMU"
+	(label "MOSI"
 		(at 144.78 83.82 0)
 		(effects
 			(font
@@ -6330,7 +6248,7 @@
 		)
 		(uuid "6da0965c-eda5-4ca6-85b1-ded38e6c4618")
 	)
-	(label "SCLK_IMU"
+	(label "SCLK"
 		(at 55.88 35.56 0)
 		(effects
 			(font
@@ -6340,7 +6258,7 @@
 		)
 		(uuid "6e70af71-5af9-40b5-8efc-5f5aceabc0ad")
 	)
-	(label "MOSI_MAG"
+	(label "MOSI"
 		(at 15.24 38.1 0)
 		(effects
 			(font
@@ -6350,7 +6268,7 @@
 		)
 		(uuid "6ebc4da1-dfa7-4475-b78b-7eca0695b1ba")
 	)
-	(label "MISO_IMU"
+	(label "MISO"
 		(at 195.58 111.76 180)
 		(effects
 			(font
@@ -6369,16 +6287,6 @@
 			(justify right bottom)
 		)
 		(uuid "818b6cae-8d12-401c-9e2f-e0e71154d95e")
-	)
-	(label "SS_MAG"
-		(at 144.78 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "868ab24c-be4f-4d65-a687-dd6027c23384")
 	)
 	(label "D{slash}C"
 		(at 27.94 158.75 180)
@@ -6420,16 +6328,6 @@
 		)
 		(uuid "947fd1db-a0fb-463d-985d-4bfc860ff351")
 	)
-	(label "MOSI_MAG"
-		(at 144.78 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c2fb16eb-7ce8-4cfc-96fb-7fc6ab9e7f7d")
-	)
 	(label "RESET"
 		(at 195.58 116.84 180)
 		(effects
@@ -6440,7 +6338,7 @@
 		)
 		(uuid "c3535d4d-0d14-4c02-88d5-9dcc4ec3b81c")
 	)
-	(label "MOSI_IMU"
+	(label "MOSI"
 		(at 55.88 30.48 0)
 		(effects
 			(font
@@ -6450,7 +6348,7 @@
 		)
 		(uuid "cc3a9979-d6fd-42a3-908a-588dbf78fbf2")
 	)
-	(label "SCLK_MAG"
+	(label "SCLK"
 		(at 15.24 35.56 0)
 		(effects
 			(font
@@ -6489,16 +6387,6 @@
 			(justify right bottom)
 		)
 		(uuid "e56f4d07-c02a-4e34-8edd-59503ea5622c")
-	)
-	(label "MOSI"
-		(at 195.58 114.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e6f275cd-9475-4cfe-aefc-812cf6422a93")
 	)
 	(label "SCLK"
 		(at 27.94 151.13 180)
