@@ -4981,6 +4981,10 @@
 		(uuid "00167ca8-99bd-4b4c-a397-7366dd2a0065")
 	)
 	(no_connect
+		(at 154.94 83.82)
+		(uuid "010bcd76-f0a2-425a-978c-179bbff3d7e7")
+	)
+	(no_connect
 		(at 154.94 114.3)
 		(uuid "057240c9-0cd4-493f-829e-5767794d02d0")
 	)
@@ -5019,10 +5023,6 @@
 	(no_connect
 		(at 25.4 30.48)
 		(uuid "70893319-557e-4a83-9ac6-3fbe41f5e94a")
-	)
-	(no_connect
-		(at 154.94 99.06)
-		(uuid "739e9092-37e4-4202-82cc-989b82650445")
 	)
 	(no_connect
 		(at 185.42 78.74)
@@ -6132,16 +6132,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 83.82) (xy 154.94 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84e26f52-53a3-468f-a4b5-b2f7ca4815fb")
-	)
-	(wire
-		(pts
 			(xy 90.17 31.75) (xy 96.52 31.75)
 		)
 		(stroke
@@ -6972,6 +6962,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 99.06) (xy 154.94 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f93bfbf5-b9a7-43a5-98f8-93be9d8e7aa9")
+	)
+	(wire
+		(pts
 			(xy 110.49 130.81) (xy 119.38 130.81)
 		)
 		(stroke
@@ -7100,6 +7100,16 @@
 		)
 		(uuid "10d4459d-3ba6-4212-84e3-e41d6c1b4882")
 	)
+	(label "SDA"
+		(at 144.78 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "18b21250-d900-4b40-afad-4fbb557f80c8")
+	)
 	(label "D+"
 		(at 49.53 86.36 180)
 		(effects
@@ -7180,16 +7190,6 @@
 		)
 		(uuid "6538ee6c-edd7-4579-b588-3cd2c6137cda")
 	)
-	(label "SCL"
-		(at 144.78 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6da0965c-eda5-4ca6-85b1-ded38e6c4618")
-	)
 	(label "SDA"
 		(at 15.24 38.1 0)
 		(effects
@@ -7200,7 +7200,7 @@
 		)
 		(uuid "6ebc4da1-dfa7-4475-b78b-7eca0695b1ba")
 	)
-	(label "SDA"
+	(label "SCL"
 		(at 195.58 111.76 180)
 		(effects
 			(font
@@ -8662,7 +8662,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 119.38 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8672,7 +8672,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 121.158 134.62 90)
 			(hide yes)
 			(show_name no)
@@ -9426,7 +9426,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 49.53 75.438 90)
 			(hide yes)
 			(show_name no)
@@ -10974,7 +10974,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 49.53 77.978 90)
 			(hide yes)
 			(show_name no)
