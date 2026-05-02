@@ -130,7 +130,7 @@
 			(pin input line
 				(at -17.78 2.54 0)
 				(length 2.54)
-				(name "CS"
+				(name "SS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -148,7 +148,7 @@
 			(pin input line
 				(at -17.78 5.08 0)
 				(length 2.54)
-				(name "SDO"
+				(name "MISO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -292,7 +292,7 @@
 			(pin input line
 				(at -17.78 -2.54 0)
 				(length 2.54)
-				(name "SDA/SDI"
+				(name "MOSI"
 					(effects
 						(font
 							(size 1.27 1.27)
