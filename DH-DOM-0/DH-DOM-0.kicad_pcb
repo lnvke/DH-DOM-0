@@ -6515,7 +6515,7 @@
 				)
 			)
 		)
-		(property "Value" "ESP32-S3-WROOM-1-N16R8"
+		(property "Value" "ESP32-S3-WROOM-1-N4R8"
 			(at 0 14.6 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6896,7 +6896,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U7-IO15-Pad8)")
 			(pinfunction "IO15_8")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "da5717a6-102a-4ad8-b3c0-ae046b59ee4b")
 		)
 		(pad "9" smd rect
