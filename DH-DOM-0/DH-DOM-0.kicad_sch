@@ -5573,12 +5573,6 @@
 		(uuid "00b72e5d-0eda-4a24-9a32-4808ff3ffb42")
 	)
 	(junction
-		(at 171.45 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "00cd1db1-357f-4948-85b6-65f78c71639a")
-	)
-	(junction
 		(at 54.61 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5753,6 +5747,12 @@
 		(uuid "6525a0b1-6366-4a72-99dd-8a0d22cd7b9b")
 	)
 	(junction
+		(at 116.84 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69d668a1-6c03-470f-9680-4f6593e4dd07")
+	)
+	(junction
 		(at 49.53 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5765,6 +5765,12 @@
 		(uuid "7140361c-6345-403c-be3f-25bd3af96ee1")
 	)
 	(junction
+		(at 171.45 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7331073f-b719-4c68-9918-59f131072f7b")
+	)
+	(junction
 		(at 62.23 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5775,6 +5781,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "819f5401-0b89-487c-9411-970685eaf3fb")
+	)
+	(junction
+		(at 134.62 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f559aa3-120a-478a-a3b9-bddcebb8dc45")
 	)
 	(junction
 		(at 50.8 157.48)
@@ -5879,10 +5891,10 @@
 		(uuid "c8c2a975-d29b-4588-8603-4f5ca704fac4")
 	)
 	(junction
-		(at 116.84 69.85)
+		(at 171.45 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ccf60ee5-fc2b-48c5-8ddc-e5aef51f61f7")
+		(uuid "cfb38a64-1f52-4226-9568-b435f8d62215")
 	)
 	(junction
 		(at 125.73 163.83)
@@ -5901,12 +5913,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5c15459-dc79-477b-804f-9a3331566caa")
-	)
-	(junction
-		(at 171.45 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d677ff37-189e-46cf-9b1a-c2cddd845e18")
 	)
 	(junction
 		(at 39.37 157.48)
@@ -5943,12 +5949,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecb6cb92-e140-4329-8fa1-6664d34f8306")
-	)
-	(junction
-		(at 134.62 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f09bdda6-1a9b-40af-9336-e45406206921")
 	)
 	(junction
 		(at 43.18 157.48)
@@ -9288,7 +9288,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ff60084-bf2a-496f-a291-87ab7e1eca71")
@@ -9581,7 +9581,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a318da6-60c5-42c2-8b37-043a14258aeb")
@@ -10112,13 +10112,12 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "39984a32-b69f-4a91-b9ae-2aef603ce6ce")
 		(property "Reference" "U9"
-			(at 152.0033 22.86 0)
+			(at 133.35 26.924 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10129,7 +10128,7 @@
 			)
 		)
 		(property "Value" "LSM6DSV16BTR"
-			(at 152.0033 25.4 0)
+			(at 151.384 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11626,7 +11625,7 @@
 		(dnp no)
 		(uuid "8330483e-8fee-49c9-8c13-242acd76c0ec")
 		(property "Reference" "U2"
-			(at 45.212 24.384 0)
+			(at 27.94 24.384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
