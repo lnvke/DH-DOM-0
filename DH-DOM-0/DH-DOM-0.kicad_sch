@@ -11078,7 +11078,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 33.02 128.27 0)
+		(at 33.02 128.27 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11088,7 +11088,7 @@
 		(dnp no)
 		(uuid "60e65e08-30a9-4683-831c-afdf4745cec2")
 		(property "Reference" "BTN2"
-			(at 35.814 125.984 0)
+			(at 30.226 130.556 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11098,7 +11098,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 33.02 123.19 0)
+			(at 33.02 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11108,8 +11108,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_2x01_P2.00mm_Vertical"
-			(at 33.02 123.19 0)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_2x01_P2.00mm_Horizontal"
+			(at 33.02 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11120,7 +11120,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 123.19 0)
+			(at 33.02 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11472,7 +11472,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 33.02 138.43 0)
+		(at 33.02 138.43 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11482,7 +11482,7 @@
 		(dnp no)
 		(uuid "6816a3ce-f96b-416a-9cc0-c2c06f2c4a17")
 		(property "Reference" "BTN4"
-			(at 35.814 136.144 0)
+			(at 30.226 140.716 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11492,7 +11492,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 33.02 133.35 0)
+			(at 33.02 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11502,8 +11502,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_2x01_P2.00mm_Vertical"
-			(at 33.02 133.35 0)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_2x01_P2.00mm_Horizontal"
+			(at 33.02 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11514,7 +11514,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 133.35 0)
+			(at 33.02 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11629,7 +11629,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 33.02 123.19 0)
+		(at 33.02 123.19 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11639,7 +11639,7 @@
 		(dnp no)
 		(uuid "6e79de90-9df9-440e-b287-b4cc7dfbaa3e")
 		(property "Reference" "BTN1"
-			(at 35.814 120.904 0)
+			(at 30.226 125.476 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11649,7 +11649,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 33.02 118.11 0)
+			(at 33.02 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11660,7 +11660,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_2x01_P2.00mm_Horizontal"
-			(at 33.02 118.11 0)
+			(at 33.02 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11671,7 +11671,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 118.11 0)
+			(at 33.02 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12066,7 +12066,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 33.02 133.35 0)
+		(at 33.02 133.35 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12076,7 +12076,7 @@
 		(dnp no)
 		(uuid "9054d227-dc95-40cc-995d-a9e91c315fad")
 		(property "Reference" "BTN3"
-			(at 35.814 131.064 0)
+			(at 30.226 135.636 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12086,7 +12086,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 33.02 128.27 0)
+			(at 33.02 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12096,8 +12096,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_2x01_P2.00mm_Vertical"
-			(at 33.02 128.27 0)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_2x01_P2.00mm_Horizontal"
+			(at 33.02 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12108,7 +12108,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 128.27 0)
+			(at 33.02 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
